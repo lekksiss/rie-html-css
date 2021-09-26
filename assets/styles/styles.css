@@ -1,0 +1,14 @@
+.section {
+  border: 5px outset red;
+  background-color: lightblue;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+p {
+  color: blueviolet;
+}
+
+#paragraph2 {
+  color: blue;
+}

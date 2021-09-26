@@ -1,0 +1,20 @@
+.parent {
+  background-color: blue;
+  padding: 10px;
+}
+
+.child-1 {
+  background-color: yellow;
+  position: relative;
+  top: 15px;
+  z-index: -1;
+}
+
+.child-2 {
+  background-color: aqua;
+
+  
+}
+.child-3 {
+  background-color: blueviolet;
+}

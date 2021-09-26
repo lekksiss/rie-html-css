@@ -1,0 +1,7 @@
+div {
+  background-color: rgb(153, 150, 150);
+  border: 3px dotted black;
+  width: 35%;
+  height: 75px;
+  overflow: scroll;
+}

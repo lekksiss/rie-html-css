@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+<body>
+    
+
+    <form action="#">
+        <!-- <label for="firstName">First Name</label> -->
+        <input type="text" id="firstName" name="firstName" placeholder="Enter your First name" required><br>
+        <!-- <label for="lastName">Last Name</label> -->
+        <input type="text" id="lastName" name="lastName" placeholder="Enter your Last name" required><br><br>
+        
+        <br>
+        <label for="quantity"> Quantity (Choose between 1 and 5):</label>
+        <input type="number" name="quantity" id="quantity" min="1" max="5" required><br>
+
+        <br>
+        <label for="dateMax">Enter a date before 1980-01-01:</label>
+        <input type="date" name="dateMax" id="dateMax" max="1979-12-31" required><br>
+
+        <br>
+        <label for="dateMax">Enter a date after 2000-01-01:</label>
+        <input type="date" name="dateMax" id="dateMax" min="2000-01-02" required><br><br>
+
+
+
+        <input type="submit" value="SUBMIT">
+
+
+
+    </form>
+
+</body>
+</html>
